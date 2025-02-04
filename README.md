@@ -16,7 +16,7 @@ A responsive, interactive web-based calculator built using **HTML**, **CSS**, an
 
 ## Demo:
 You can view the live demo here:  
-[Live Demo]([https://sufhaf.github.io/calculator-website/](https://sufhaf.github.io/calculator-website/)) 
+[Live Demo]([https://sufhaf.github.io/calculator-website/](https://sufhaf.github.io/calculator-website/)]) 
 
 ## Setup:
 To run this project locally:
