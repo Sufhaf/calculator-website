@@ -70,3 +70,7 @@ h1 { /*Styling of head and how its displayed */
     font-size: 2.5rem; 
     margin-bottom: 20px; 
 }
+p { /*Styling of paragraph lines and its display */
+    color: #b4b4b4;
+    font-size: 1.5rem;
+}
