@@ -75,7 +75,7 @@ p { /*Styling of paragraph lines and its display */
     font-size: 1.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { /*Adjusting the size for mobile browsers */
     body {
         padding: 10px; /* Add padding on smaller screens */
     }
