@@ -1,6 +1,6 @@
 # Website Calculator
 
-A responsive, interactive web-based calculator built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates frontend development skills with a clean, minimalist design and interactive button sounds for a more engaging user experience.
+A responsive, interactive web-based calculator built using **HTML**, **CSS**, and **JavaScript**. This project demonstrates frontend development skills with a clean, minimalist design and interactive button sounds for a more engaging user experience. The website is also mobile friendly, but the project still needs optimising as it runs slow on mobile browsers.
 
 ## Key Features:
 - Simple, clean, and minimalist design.
@@ -8,6 +8,7 @@ A responsive, interactive web-based calculator built using **HTML**, **CSS**, an
 - Responsive layout for both desktop and mobile views.
 - Implements basic arithmetic operations (addition, subtraction, multiplication, division).
 - Written in **vanilla JavaScript** (no external libraries).
+- Mobile browser friendly
 
 ## Technologies Used:
 - **HTML** for the structure of the website.
@@ -18,8 +19,4 @@ A responsive, interactive web-based calculator built using **HTML**, **CSS**, an
 You can view the live demo here:  
 [Live Demo]:  https://sufhaf.github.io/calculator-website/
 
-## Setup:
-To run this project locally:
-1. Clone this repository: `git clone https://github.com/your-username/calculator-website.git`
-2. Open `index.html` in your browser.
-
+**SH**
