@@ -1,67 +1,71 @@
-body{
-    margin:0;
-    display: flex;
-    justify-content: centre;
-    align-items: centre;
-    height: 100vh;
-    width: 100vw;
-    background-color: #121212;
-    font-family: 'Poppins', sans-serif;
-    flex-direction:column;
+body { /* Styling for the body of the webpage */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-color: #121212; /* Dark background colour */
+    font-family: 'Poppins', sans-serif; /* Sets the font */
+    flex-direction: column; /* Stacks content vertically */
 }
-button{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    border: none;
-    background-color: rgb(160, 160, 160); 
-    font-size: 3rem;
-    font-weight: bold;
-    cursor: pointer;
-    color: rgb(39, 39, 39);
+
+button { /* Styling for buttons */
+    width: 100px; /* Button width */
+    height: 100px; /* Button height */
+    border-radius: 50px; /* Rounded corners */
+    border: none; /* No border */
+    background-color: rgb(160, 160, 160); /* Light gray background colour */
+    font-size: 3rem; /* Large font size */
+    font-weight: bold; /* Bold font */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: rgb(39, 39, 39); /* Dark text color */
 }
-#keys{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    padding: 50px;
+
+#keys { /* Styling for the keys container */
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+    gap: 10px; /* Adds space between grid items */
+    padding: 50px; /* Adds padding around the container */
 }
-#calculator{
-    font-family: Arial, san-serif;
-    background-color: rgb(77, 77, 77);
-    border-radius: 20px;
-    max-width: 500px;
-    overflow: hidden;
-    text-align: centre;
-    align-items: center;
+
+#calculator {/* Styling for the calculator container */
+    font-family: Arial, sans-serif; /* Sets the font for the calculator */
+    background-color: rgb(77, 77, 77); /* Dark gray background colour */
+    border-radius: 20px; /* Rounded corners */
+    max-width: 500px; /* Maximum width of the calculator */
+    overflow: hidden; /* Hides any overflow content */
+    text-align: center; /* Centers text horizontally */
+    align-items: center; /* Centers items inside the calculator */
 }
-#display{
-    width: 100%;
-    padding: 25px;
-    font-size: 5rem;
-    text-align:left;
-    border:none;
-    background-color: rgb(114, 114, 114);
-    color: white;
+
+#display { /* Styling for the display */
+    width: 100%; /* Full width */
+    padding: 25px; /* Padding around the text */
+    font-size: 5rem; /* Large font size */
+    text-align: left; /* Left-aligns the text */
+    border: none; /* Removes border */
+    background-color: rgb(114, 114, 114); /* Slightly lighter gray background */
+    color: white; /* White text color */
 }
-button:hover{
+button:hover{ /* Changes colour of button on hover */
     background-color: rgba(160, 160, 160, 0.301); 
 }
-button:active{
+button:active{ /* When button is clicked, changes the colour */
     background-color: rgba(160, 160, 160, 0.651); 
 }
-.operator-btn{
+.operator-btn{ /* Changes colour button click */
     background-color: #00ADB5;
 }
-.operator-btn:active{
+.operator-btn:active{ /* Changes colour button on click */
     background-color: #37ebf56c;
 }
-.operator-btn:hover{
+.operator-btn:hover{ /* Changes colour button on hover */
     background-color: #00acb5d0;
 }
 
 
-h1 {
+h1 { /*Styling of head and how its displayed */
     color: white; 
     font-size: 2.5rem; 
     margin-bottom: 20px; 
